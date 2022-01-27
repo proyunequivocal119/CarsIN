@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Stardos+Stencil&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@700&display=swap');
+
+
+body{
+  background-image: linear-gradient(to right, #EAFAF1, #FEF9E7);
+}
+
+i{
+  color: teal;
+  animation-delay: 1.5s;
+}
+
+h2{
+  font-family: 'Stardos Stencil', cursive;
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-top: 1.5%;
+  font-size: 40px;
+  text-shadow: 1px 1px  grey;
+}
+
+
+
+.two .brand_logos{
+  padding-left: 2%;
+  padding-right: 2%;
+  width: 12%;
+  border-radius: 50%;
+}
+
+
+
+.three .brand_logos{
+  padding-top: 1.5%;
+  padding-left: 2%;
+  padding-right: 2%;
+  width: 12%;
+}
+
+
+
+.four .brand_logos{
+  padding-top: 1.5%;
+  padding-left: 2%;
+  padding-right: 2%;
+  width: 12%;
+}
+
+
+
+.brand_logos{
+  opacity: 1;
+}
+
+.brand_logos:hover{
+  background-color: lightgreen;
+  opacity: 0.8;
+  width: 12.1%;
+
+}
+
+h3{
+  color: black;
+  text-shadow: 1px 1px white;
+  font-size: 17px;
+  text-decoration: none;
+  font-style: none;
+}
+
+@media (max-width: 671px){
+  h2{
+    color: red;
+  }
+}

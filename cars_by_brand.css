@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Stardos+Stencil&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@700&display=swap');
+
+
+body{
+  background-image: linear-gradient(to top,  #D0D3D4, #FDEDEC);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-clip: border-box;
+}
+
+i{
+  color: teal;
+  animation-delay: 1.5s;
+}
+
+h2{
+  font-family: 'Stardos Stencil', cursive;
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-top: 1.5%;
+  font-size: 35px;
+  text-shadow: 1px 1px  grey;
+}
+
+
+
+.two .brand_logos{
+  padding-left: 2%;
+  padding-right: 2%;
+  width: 12%;
+  border-radius: 25%;
+}
+
+
+
+.three .brand_logos{
+  padding-top: 1.5%;
+  padding-left: 2%;
+  padding-right: 2%;
+  width: 12%;
+  border-radius: 25%;
+}
+
+
+
+.four .brand_logos{
+  padding-top: 1.5%;
+  padding-left: 2%;
+  padding-right: 2%;
+  width: 12%;
+  border-radius: 25%;
+}
+
+
+
+.brand_logos{
+  opacity: 0.9;
+}
+
+.brand_logos:hover{
+ opacity: 1000;
+}
+
+h3{
+  color: black;
+  text-shadow: 1px 1px white;
+  font-size: 17px;
+  text-decoration: none;
+  font-style: none;
+}
+
+
+@media screen and (max-width: 650px){
+
+  body{
+    background-size: cover;
+  }
+
+
+
+  h2{
+    font-size: 20px;
+    font-style: italic;
+  }
+
+  .two .brand_logos{
+    width: 15%;
+  }
+
+  .three .brand_logos{
+    width: 15%;
+  }
+
+  .four .brand_logos{
+    width: 15%;
+  }
+}
